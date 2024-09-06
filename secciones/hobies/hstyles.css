@@ -1,0 +1,58 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+html{
+    background-color: black;
+}
+
+.txt{
+    color: white;
+}
+
+header{
+    font-size: 40px;
+    border-width: 20px;
+    border-color: #f4ca1a;
+    border-style: solid;
+    background-color: #f4ca1a;
+}
+
+.imginc{
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#txtbas{
+    position: absolute;
+    top: 20px;
+    right: 365px;
+}
+
+#txtbaspa{
+    position: relative;
+}
+
+#txtbas1{
+    display: flex;
+    font-size: 20px;
+    position: relative;
+}
+
+#botones{
+    display: flex;
+    position: absolute;
+    top: 340px;
+    right: 390px;
+}
+
+#tint{
+    font-size: 21px;
+    width: 800px;
+    position: absolute;
+    right: 270px;
+    top: 360px;
+}

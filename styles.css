@@ -1,12 +1,65 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+html{
+    background-color: black;
+}
+
+.txt{
+    color: white;
 }
 
 header{
-    font-size: 30px;
+    font-size: 40px;
+    border-width: 20px;
+    border-color: #c42d10;
+    border-style: solid;
+    background-color: #c42d10;
 }
 
-.imginicio{
-    width: 150px;
+#imginc{
+    width: 230px;
     border-radius: 10px;
+    margin: 20px;
+    position: absolute;
+    right: 547px;
+    top: 10px;
+}
+
+#txtbas{
+    font-size: 20px;
+    position: relative;
+}
+
+txtbas1{
+    font-size: 20px;
+    position: relative;
+}
+
+#botones{
+    display: flex;
+    position: absolute;
+    top: 340px;
+    right: 250px;
+}
+
+#botones1{
+    position: relative;
+}
+
+#tint{
+    position: absolute;
+    right: 530px;
+    top: 390px;
+}
+
+.boton{
+    margin: 30px;
+    width: 230px;
+    height: 100px;
+    color: white;
+    background-color: #c42d10;
+    font-size: 20px;
 }
