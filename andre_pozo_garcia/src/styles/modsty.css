@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #fff;
+    background: black;
+}
+
+.grilla {
+    height: 100vh;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.grilla div {
+    background-color: #3bc206;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.grilla div:nth-child(1) {
+    background-color: #f7eb09;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.grilla div:nth-child(2) {
+    background-color: #e32a4a;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.grilla div:nth-child(3) {
+    background-color: #a81e1e;
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.grilla div:nth-child(4) {
+    background-color: #2170d5;
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+
+.grilla div:nth-child(5) {
+    background-color: #ff5733;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.grilla div:nth-child(6) {
+    background-color: #fcb103;
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+.grilla div:nth-child(7) {
+    background-color: #2a8e69;
+    grid-column: 3/5;
+    grid-row: 2/3;
+}
+
+.grilla div:nth-child(8) {
+    background-color: #711c72;
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+.grilla div:nth-child(9) {
+    background-color: #33a8cc;
+    grid-column: 1/3;
+    grid-row: 4/5;
+}
+
+.grilla div:nth-child(10) {
+    background-color: #6a0dad;
+    grid-column: 3/4;
+    grid-row: 3/5;
+}
+
+.grilla div:nth-child(11) {
+    background-color: #b22222;
+    grid-column: 4/6;
+    grid-row: 3/4;
+}
+
+.grilla div:nth-child(12) {
+    background-color: #ffb6c1;
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+
+.grilla div:nth-child(13) {
+    background-color: #9370db;
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+.grilla div:nth-child(14) {
+    background-color: #556b2f;
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+.exp {
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
