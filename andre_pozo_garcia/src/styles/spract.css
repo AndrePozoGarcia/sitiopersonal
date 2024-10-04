@@ -14,9 +14,9 @@ html{
 header{
     font-size: 40px;
     border-width: 20px;
-    border-color: #c42d10;
+    border-color: #022e1c;
     border-style: solid;
-    background-color: #c42d10;
+    background-color: #022e1c;
 }
 
 #imginc{
@@ -42,7 +42,7 @@ txtbas1{
     display: flex;
     position: absolute;
     top: 340px;
-    right: 250px;
+    right: 390px;
 }
 
 #botones1{
@@ -51,7 +51,7 @@ txtbas1{
 
 #tint{
     position: absolute;
-    right: 530px;
+    right: 548px;
     top: 390px;
 }
 
@@ -60,6 +60,6 @@ txtbas1{
     width: 230px;
     height: 100px;
     color: white;
-    background-color: #c42d10;
+    background-color: #022e1c;
     font-size: 20px;
 }

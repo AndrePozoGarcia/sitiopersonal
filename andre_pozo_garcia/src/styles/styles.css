@@ -1,0 +1,68 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+html{
+    background-color: black;
+}
+
+.txt{
+    color: white;
+}
+
+header{
+    font-size: 40px;
+    border-width: 20px;
+    border-color: #c42d10;
+    border-style: solid;
+    background-color: #c42d10;
+}
+
+.imginc{
+    width: 230px;
+    border-radius: 10px;
+    margin: 20px;
+    position: absolute;
+    right: 547px;
+    top: 10px;
+}
+
+.txtbas{
+    font-size: 20px;
+    position: relative;
+}
+
+.botones{
+    display: flex;
+    position: absolute;
+    top: 340px;
+    right: 100px;
+}
+
+.botones1{
+    position: relative;
+}
+
+#tint{
+    position: absolute;
+    right: 495px;
+    top: 310px;
+}
+
+.boton{
+    margin: 30px;
+    width: 230px;
+    height: 100px;
+    color: white;
+    background-color: #c42d10;
+    font-size: 20px;
+}
+
+#tinthob{
+    font-size: 21px;
+    width: 800px;
+    position: absolute;
+    right: 270px;
+    top: 360px;
+}
